@@ -21,6 +21,7 @@
   height: 100%;
   background: #fff;
   z-index: 0;
+
 }
 
 .camera_wrap img {
@@ -194,6 +195,16 @@
 @media (max-width: 1399px) {
   .camera_caption .row {
     margin-left: 0;
+
+    /* Arreglos de los titulos de la imagen */
+
+   padding:1px;
+   background-color:whitesmoke;
+   opacity:0.8;
+   filter:alpha(opacity=60); /* IE < 9.0 */
+   overflow: hidden;
+
+
   }
   .camera_caption [class*="grid_"] {
     margin: 0;
